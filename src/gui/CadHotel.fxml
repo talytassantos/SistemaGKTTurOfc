@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.CadHotelController">
+   <children>
+      <Button layoutX="332.0" layoutY="521.0" mnemonicParsing="false" text="Voltar" />
+      <Button layoutX="463.0" layoutY="521.0" mnemonicParsing="false" text="Salvar" />
+      <Label layoutX="52.0" layoutY="96.0" text="CNPJ" />
+      <TextField layoutX="104.0" layoutY="91.0" prefHeight="26.0" prefWidth="131.0" />
+      <Label layoutX="253.0" layoutY="95.0" text="Razão Social" />
+      <TextField layoutX="332.0" layoutY="90.0" prefHeight="26.0" prefWidth="494.0" promptText="Digite a razão social" />
+      <Label layoutX="716.0" layoutY="260.0" text="CEP" />
+      <TextField layoutX="138.0" layoutY="256.0" prefHeight="26.0" prefWidth="264.0" />
+      <Label layoutX="52.0" layoutY="215.0" text="Logradouro" />
+      <TextField layoutX="121.0" layoutY="211.0" prefHeight="26.0" prefWidth="554.0" />
+      <Label layoutX="694.0" layoutY="215.0" text="Número" />
+      <TextField layoutX="749.0" layoutY="210.0" prefHeight="26.0" prefWidth="76.0" />
+      <Label layoutX="52.0" layoutY="260.0" text="Complemento" />
+      <TextField layoutX="749.0" layoutY="255.0" prefHeight="26.0" prefWidth="76.0" promptText="_____-___" />
+      <Label layoutX="415.0" layoutY="260.0" text="Bairro" />
+      <TextField layoutX="457.0" layoutY="255.0" prefHeight="26.0" prefWidth="244.0" />
+      <Label layoutX="54.0" layoutY="305.0" text="Cidade" />
+      <TextField layoutX="102.0" layoutY="300.0" prefHeight="26.0" prefWidth="301.0" />
+      <Label layoutX="415.0" layoutY="304.0" text="UF" />
+      <ComboBox layoutX="444.0" layoutY="300.0" prefHeight="26.0" prefWidth="26.0" />
+      <Label layoutX="58.0" layoutY="376.0" text="Telefone" />
+      <TextField layoutX="115.0" layoutY="371.0" prefHeight="26.0" prefWidth="131.0" />
+      <Label layoutX="58.0" layoutY="412.0" text="Email" />
+      <TextField layoutX="115.0" layoutY="407.0" prefHeight="26.0" prefWidth="291.0" />
+      <Label layoutX="421.0" layoutY="375.0" prefHeight="18.0" prefWidth="66.0" text="Responsável" />
+      <TextField layoutX="500.0" layoutY="371.0" prefHeight="26.0" prefWidth="333.0" />
+      <Label layoutX="55.0" layoutY="451.0" text="Avaliação" />
+      <TextField layoutX="115.0" layoutY="448.0" prefHeight="26.0" prefWidth="718.0" />
+      <TextField layoutX="148.0" layoutY="138.0" prefHeight="26.0" prefWidth="678.0" promptText="Digite o nome do hotel" />
+      <Label layoutX="50.0" layoutY="142.0" text="Nome do Hotel" />
+   </children>
+</AnchorPane>

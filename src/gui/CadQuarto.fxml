@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.CadQuartoController">
+   <children>
+      <Label layoutX="112.0" layoutY="104.0" text="Número do quarto" />
+      <TextField layoutX="230.0" layoutY="100.0" prefHeight="26.0" prefWidth="100.0" />
+      <Label layoutX="112.0" layoutY="152.0" text="Tipo do quarto" />
+      <TextField layoutX="230.0" layoutY="147.0" prefHeight="26.0" prefWidth="199.0" />
+      <CheckBox layoutX="112.0" layoutY="248.0" mnemonicParsing="false" text="W-fi" />
+      <Label layoutX="112.0" layoutY="213.0" text="Serviços:" />
+      <CheckBox layoutX="200.0" layoutY="248.0" mnemonicParsing="false" text="TV" />
+      <CheckBox layoutX="274.0" layoutY="248.0" mnemonicParsing="false" text="Ar-condicionado" />
+      <Button layoutX="230.0" layoutY="312.0" mnemonicParsing="false" text="Voltar" />
+      <Button layoutX="406.0" layoutY="312.0" mnemonicParsing="false" text="Salvar" />
+   </children>
+</AnchorPane>

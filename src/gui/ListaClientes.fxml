@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="296.0" prefWidth="458.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ListaClientesController">
+   <children>
+      <Label text="Registro de Clientes">
+         <padding>
+            <Insets left="10.0" top="10.0" />
+         </padding>
+      </Label>
+      <ToolBar prefHeight="40.0" prefWidth="200.0">
+        <items>
+          <Button fx:id="btNovo" mnemonicParsing="false" onAction="#onBtNovoAction" text="Novo" />
+        </items>
+      </ToolBar>
+      <TableView fx:id="tableViewCliente" prefHeight="200.0" prefWidth="200.0">
+        <columns>
+          <TableColumn fx:id="tableColumnCPF" prefWidth="75.0" text="CPF" />
+          <TableColumn fx:id="tableColumnNome" prefWidth="75.0" text="Nome" />
+            <TableColumn fx:id="tableColumnEmail" prefWidth="75.0" text="E-mail" />
+            <TableColumn fx:id="tableColumnTelefone" prefWidth="75.0" text="Telefone" />
+            <TableColumn fx:id="tableColumnAdmin" prefWidth="75.0" text="Admin" />
+        </columns>
+      </TableView>
+   </children>
+</VBox>

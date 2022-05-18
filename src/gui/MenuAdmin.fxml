@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.MenuAdminController">
+   <content>
+      <VBox prefHeight="309.0" prefWidth="494.0">
+         <children>
+            <MenuBar prefHeight="0.0" prefWidth="598.0">
+              <menus>
+                <Menu mnemonicParsing="false" text="Cadastrar">
+                     <items>
+                        <MenuItem fx:id="menuItemCadastrarClientes" mnemonicParsing="false" onAction="#onMenuItemCadastrarClientesAction" text="Clientes" />
+                        <MenuItem fx:id="menuItemCadastrarHoteis" mnemonicParsing="false" onAction="#onMenuItemCadastrarHoteisAction" text="Hotéis" />
+                        <MenuItem fx:id="menuItemCadastrarReservas" mnemonicParsing="false" onAction="#onMenuItemCadastrarReservasAction" text="Reservas" />
+                        <MenuItem fx:id="menuItemCadastrarServicos" mnemonicParsing="false" onAction="#onMenuItemCadastrarServicosAction" text="Serviços" />
+                        <MenuItem fx:id="menuItemCadastrarQuartos" mnemonicParsing="false" onAction="#onMenuItemCadastrarQuartosAction" text="Quartos" />
+                     </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Listar">
+                     <items>
+                        <MenuItem fx:id="menuItemListarClientes" mnemonicParsing="false" onAction="#onMenuItemListarClientesAction" text="Clientes" />
+                        <MenuItem fx:id="menuItemListarHoteis" mnemonicParsing="false" onAction="#onMenuItemListarHoteisAction" text="Hotéis" />
+                        <MenuItem fx:id="menuItemListarReservas" mnemonicParsing="false" onAction="#onMenuItemListarReservasAction" text="Reservas" />
+                        <MenuItem fx:id="menuItemListarServicos" mnemonicParsing="false" onAction="#onMenuItemListarServicosAction" text="Serviços" />
+                        <MenuItem fx:id="menuItemListarQuartos" mnemonicParsing="false" onAction="#onMenuItemListarQuartosAction" text="Quartos" />
+                     </items>
+                </Menu>
+                  <Menu mnemonicParsing="false" text="Help">
+                     <items>
+                        <MenuItem fx:id="menuItemAbout" mnemonicParsing="false" onAction="#onMenuItemAboutAction" text="About" />
+                     </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="Sair" />
+              </menus>
+            </MenuBar>
+         </children>
+      </VBox>
+   </content>
+</ScrollPane>
